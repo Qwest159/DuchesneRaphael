@@ -1,0 +1,20 @@
+body {
+  background-color: #fff;
+  font-family: Serif;
+  font-size: 10pt;
+}
+
+#container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+nav,
+figure {
+  display: none;
+}
+
+a::after {
+  content: "(" attr(href) ")";
+}

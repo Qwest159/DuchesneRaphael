@@ -1,0 +1,12 @@
+@media screen and (min-width: 0px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  .disparaitre {
+    display: none;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
